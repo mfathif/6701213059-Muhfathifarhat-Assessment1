@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Kalkulator Sederhana</title>
+	<title>Kalkulator</title>
 </head>
 <body>
 	<form method="post">
@@ -23,20 +23,20 @@
 
 			switch($operator){
 				case "tambah":
-					$hasil = $angka1 + $angka2;
+					$hasil_angka = $angka1 + $angka2;
 					break;
 				case "kurang":
-					$hasil = $angka1 - $angka2;
+					$hasil_angka = $angka1 - $angka2;
 					break;
 				case "kali":
-					$hasil = $angka1 * $angka2;
+					$hasil_angka = $angka1 * $angka2;
 					break;
 				case "bagi":
-					$hasil = $angka1 / $angka2;
+					$hasil_angka = $angka1 / $angka2;
 					break;
 			}
 
-			echo "<br>Hasil perhitungan: ".$hasil;
+			echo "<br>Hasil perhitungan: ".$hasil_angka;
 		}
 	?>
 </body>
